@@ -1,0 +1,56 @@
+{
+    "Charmander": {
+        "type": "fire",
+        "damage": 15,
+        "hp": 75,
+        "weakness": "water"
+    },
+    "Bulbasaur": {
+        "type": "grass",
+        "damage": 12,
+        "hp": 87,
+        "weakness": "fire"
+    },
+    "Squirtle": {
+        "type": "water",
+        "damage": 13,
+        "hp": 79,
+        "weakness": "electric"
+    },
+    "Pidgey": {
+        "type": "flying",
+        "damage": 13,
+        "hp": 76,
+        "weakness": "fire"
+    },
+    "Rattata": {
+        "type": "ground",
+        "damage": 8,
+        "hp": 56,
+        "weakness": "grass"
+    },
+    "Zubat": {
+        "type": "poison",
+        "damage": 19,
+        "hp": 56,
+        "weakness": "fire"
+    },
+    "Goldeen": {
+        "type": "Water",
+        "damage": 21,
+        "hp": 79,
+        "weakness": "electric"
+    },
+    "Pikachu": {
+        "type": "electric",
+        "damage": 18,
+        "hp": 68,
+        "weakness": "grass"
+    },
+    "Dwane": {
+        "type": "water",
+        "damage": 50,
+        "hp": 100,
+        "weakness": "electric"
+    }
+}
