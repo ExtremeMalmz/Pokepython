@@ -149,9 +149,9 @@ class Pythenon:
             playerHealthPoints = playerPokemon.getHp()
             computermonHealthPoints = computerPokemon.getHp()
 
-            if playerHealthPoints and computermonHealthPoints >= 0:
+            if playerHealthPoints >= 0:
                 print(f"Du {playerHealthPoints}hp, Datorn {computermonHealthPoints}hp")
-            print("*"*40)
+                print("*"*40)
 
             if playerPokemon.isAlive() == False:
                 print(f"Vinnare är datorn: {computermonName}")
@@ -177,9 +177,9 @@ class Pythenon:
             print(f"{self.playerMadePokemonName} ({self.originalPokemonName}) attackerar: {playerAttackDamage}")
             playerHealthPoints = playerPokemon.getHp()
             computermonHealthPoints = computerPokemon.getHp()
-            if playerHealthPoints and computermonHealthPoints >= 0:
+            if computermonHealthPoints >= 0:
                 print(f"Du {playerHealthPoints}hp, Datorn {computermonHealthPoints}hp")
-            print("*"*40)
+                print("*"*40)
 
             if playerPokemon.isAlive() == False:
                 print(f"Vinnare är datorn: {computermonName}")
